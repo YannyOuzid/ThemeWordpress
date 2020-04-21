@@ -4,7 +4,7 @@
 	<?php 
 		if ( comments_open() ) :
 		echo '<div class="post-box"><h4 class="post-box-title">';
-		comments_number(__('No Comments','solopine'), __('1 Comment','solopine'), '% ' . __('Comments','solopine') );
+		comments_number(__('Aucun commentaire','solopine'), __('1 Comment','solopine'), '% ' . __('Comments','solopine') );
 		echo '</h4></div>';
 		endif;
 
@@ -38,4 +38,4 @@
 	 ?>
 
 
-</div> <!-- end comments div -->
+</div> 
