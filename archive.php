@@ -2,7 +2,7 @@
 
 <?php get_sidebar(); ?>
 
-  <h1>Categories</h1>
+    <h1>Archives</h1>
 
     <?php while ( have_posts() ) : the_post(); ?>
 

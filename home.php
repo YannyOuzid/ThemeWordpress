@@ -19,7 +19,9 @@
     </a>
     <p>Date : <?php the_time('d/m/Y'); ?></p>
 
-    <p>Auteur : <?php the_author(); ?></p>
+    <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">Auteur : <?php the_author(); ?></a>
+
+    <p><?php the_tags(); ?></p>
     <?php the_excerpt(  ); ?> 
     <a href="<?php the_permalink( ); ?>">
     Lire
