@@ -2,4 +2,4 @@
 
     <?php the_content(  ); ?> 
     
-    <?php get_template_part('comments'); ?>
+    <?php comments_template( ); ?>
