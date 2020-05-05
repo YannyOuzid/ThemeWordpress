@@ -3,8 +3,6 @@
 	<?php wp_list_comments(); ?>
 <?php endif; ?>
 
-
-
 <?php
 	$comments_args = array(
 		'label_submit' => 'Submit Comment',
