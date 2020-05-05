@@ -2,7 +2,7 @@
 
 <?php get_sidebar(); ?>
 
-    <h1>Auteur</h1>
+    <h1>Archive de <?php the_author() ?></h1>
 
     <?php while ( have_posts() ) : the_post(); ?>
 
