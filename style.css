@@ -1,9 +1,13 @@
-body{ background-color: #090C08; }
+body{ background-color: #090C08; overflow-x: hidden; }
 
-h1, h2, h3, h4, h5, h6, p { color: #F4FFF8; }
+h1, h2, h3, h4, h5, h6, p, ul, li { color: #F4FFF8; }
 
 h1, h2, h3, h4, h5, h6 { text-transform: uppercase; margin:0 auto; }
 
 hr{ border-top: 1px solid #F06449; }
 
-.footer-text{ background-color: #F06449; padding-top: 2px; padding-bottom: 2px; }
+.footer-class{ margin-top: 30px; }
+
+.footer-text{ background-color: #F06449; padding-top: 2px; padding-bottom: 2px; text-shadow: 1px 1px 3px black; }
+
+

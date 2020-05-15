@@ -12,12 +12,14 @@
 
 <body>
 
-	<header>
-		 <nav id="navigation-principale" role="navigation">
-    		<?php wp_nav_menu( array( 'theme_location' => 'menu-principal' ) ); ?>
-    	</nav>
+	<header>       
 
-    	<div class="search-header">
-    		<?php get_search_form( ) ?>    
-   		</div>
+        <nav id="navigation-principale" role="navigation">
+
+            <div class="justify-content-center">
+                <?php wp_nav_menu( array( 'theme_location' => 'menu-principal' ) ); ?>
+            </div>
+
+	   </nav>
+
 	</header>
