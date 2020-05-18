@@ -1,4 +1,4 @@
-<h1><?php the_title(); ?></h1>
+<div class="text-center"><h1><?php the_title(); ?></h1></div>
 
 <p>Date : <?php the_time('d/m/Y'); ?></p>
 

@@ -38,7 +38,6 @@
 						<h2>Archives</h2>
 					</div>
 					<hr>
-					<div class="archive-search-form"><?php get_search_form(); ?></div>
         			<h5 style="padding-top: 20px;">Archives par année(s) :</h5>
 			        <ul><?php wp_get_archives('type=yearly'); ?></ul>
 			        <h5 style="margin-top: 5px;">Archives par mois :</h5>

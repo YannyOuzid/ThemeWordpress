@@ -1,6 +1,6 @@
 <?php
 /*
-Template name: DevLab
+Template name: Page
 */
 ?>
 

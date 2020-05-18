@@ -1,8 +1,5 @@
 <section>
-	<div class="text-center">
-		<h5>Recherche</h5>
-	</div>
-
+	
 	<form role="search" method="get" id="searchform" class="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 		<div class="col-12">
 			<label class="screen-reader-text" for="s"><?php _x( 'Search for:', 'label' ); ?></label>
