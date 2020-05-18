@@ -16,7 +16,7 @@
 
         <nav id="navigation-principale" role="navigation">
 
-        <h1><?php bloginfo( 'name' ); ?></h1>
+            <h1><?php bloginfo( 'name' ); ?></h1>
 
             <div class="justify-content-center">
                 <?php wp_nav_menu( array( 'theme_location' => 'menu-principal' ) ); ?>

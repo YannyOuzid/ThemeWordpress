@@ -15,10 +15,10 @@
 <article style="padding-right:20px">
 
 <div class="card" style="width: 18rem; background-color: black; border-color: #F06449" >
-        <img class="card-img-top" src="..." alt="Card image cap">
-  
+        <img class="card-img-top" src="" alt="Card image cap">
+        
         <a href="<?php the_permalink( ); ?>">
-        <?php the_post_thumbnail(); ?>
+        <?php the_post_thumbnail();?>
         </a>
 
         <div class="card-body">
