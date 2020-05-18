@@ -9,10 +9,10 @@
 <p>Page de recherche</p>
 
 
-
+<div class="row">
 <?php while ( have_posts() ) : the_post(); ?>
 
-<article>
+<article style="padding-right:20px">
 
 <div class="card" style="width: 18rem; background-color: black; border-color: #F06449" >
         <img class="card-img-top" src="..." alt="Card image cap">
@@ -36,7 +36,7 @@
 <?php endwhile; ?>   
 
 
-
+</div>
 </div> 
 
 </div>
