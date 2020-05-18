@@ -19,7 +19,8 @@
             <h1><?php bloginfo( 'name' ); ?></h1>
 
             <div class="justify-content-center">
-                <?php wp_nav_menu( array( 'theme_location' => 'menu-principal' ) ); ?>
+                <?php wp_nav_menu( array( 'theme_location' => 'menu-principal', 
+                                          'menu_class' => 'row' ) ); ?>
             </div>
 
 	   </nav>

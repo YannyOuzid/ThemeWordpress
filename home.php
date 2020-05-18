@@ -52,11 +52,7 @@
 
                 <div class="card" style="width:100%; background-color: transparent; border-color: #F06449" >
                     
-                    <img class="card-img-top" src="..." alt="Card image cap">
-      
-                    <a href="<?php the_permalink( ); ?>">
-                        <?php the_post_thumbnail(); ?>
-                    </a>
+                    <img class="card-img-top" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="Card image cap">
 
                     <div class="card-body">
                         <h5 class="card-title"><?php the_title(); ?></h5>
