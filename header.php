@@ -14,15 +14,13 @@
 
 	<header>       
 
-        <nav id="navigation-principale" role="navigation">
 
             <h1><?php bloginfo( 'name' ); ?></h1>
+            <?php wp_nav_menu( array( 'theme_location' => 'menu-principal', 
+                                          'menu_id' => 'test',
+                                          'menu_class' => "navbar navbar-light;",
+                                          'menu_style' => "background-color:#e3f2fd;"
+                                           ) ); ?>
 
-            <div class="justify-content-center">
-                <?php wp_nav_menu( array( 'theme_location' => 'menu-principal', 
-                                          'menu_class' => 'row' ) ); ?>
-            </div>
-
-	   </nav>
 
 	</header>

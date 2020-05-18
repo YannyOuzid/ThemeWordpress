@@ -13,3 +13,7 @@ hr{ border-top: 1px solid #F06449; }
 .row-extended{ display: flex; flex-direction: row; flex-wrap: wrap; }
 
 .img-example{ padding-left: 10px; padding-right: 10px; width: 100%; height: auto; border-radius: 32px; margin-top: 50px; }
+
+div.menu-premiere-page-container{
+    background-color: #F06449;
+}
