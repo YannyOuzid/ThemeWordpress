@@ -17,10 +17,10 @@
 
             <h1><?php bloginfo( 'name' ); ?></h1>
             <?php wp_nav_menu( array( 'theme_location' => 'menu-principal', 
-                                          'menu_id' => 'test',
-                                          'menu_class' => "navbar navbar-light;",
-                                          'menu_style' => "background-color:#e3f2fd;"
-                                           ) ); ?>
+                                        'menu_id' => 'navbar_devlab',
+                                        'menu_class' => "navbar navbar-light;",
+                                        'menu_style' => "background-color:#e3f2fd;",
+                                        ) ); ?>
 
 
 	</header>
