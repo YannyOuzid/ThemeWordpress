@@ -20,7 +20,7 @@
 
                 <article style="padding-right:20px">
 
-                    <div class="card" style="width: 100%; background-color: black; border-color: #F06449" >
+                    <div class="card" style="width: 100%; background-color: transparent; border-color: #F06449" >
                         <img class="card-img-top" src="..." alt="Card image cap">
       
                         <a href="<?php the_permalink( ); ?>">
