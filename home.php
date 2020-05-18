@@ -8,10 +8,10 @@
 
     <?php while(have_posts(  )) : the_post(  ); ?>
 
-    <article style="padding-right:20px">
+    <article style="padding-right:20px; padding-left:20px; padding-top:10px">
 
-    <div class="card" style="width: 18rem; background-color: black; border-color: #F06449" >
-        <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card" style="width: 18rem; background-color: black; border-color: #F06449;" >
+        <img class="card-img-top" src="<?php the_permalink( ); ?>" alt="Card image cap">
   
         <a href="<?php the_permalink( ); ?>">
         <?php the_post_thumbnail(); ?>
