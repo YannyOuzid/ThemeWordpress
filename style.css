@@ -17,3 +17,14 @@ hr{ border-top: 1px solid #F06449; }
 div.menu-premiere-page-container{
     background-color: #F06449;
 }
+
+.container-navbar-desktop{
+	border-bottom: 2px solid orange;
+}
+
+.navbar-desktop{
+	list-style: none;
+	padding-top: 15px;
+	text-transform: uppercase;
+	
+}

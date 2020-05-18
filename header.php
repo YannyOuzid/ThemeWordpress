@@ -12,15 +12,31 @@
 
 <body>
 
-	<header>       
+	<header>    
 
+        <div class="container-fluid container-navbar-desktop">   
+            
+            <div class="row">
 
-            <h1><?php bloginfo( 'name' ); ?></h1>
-            <?php wp_nav_menu( array( 'theme_location' => 'menu-principal', 
-                                        'menu_id' => 'navbar_devlab',
-                                        'menu_class' => "navbar navbar-light;",
-                                        'menu_style' => "background-color:#e3f2fd;",
-                                        ) ); ?>
+                <div class="col-4">
+                    <h1><?php bloginfo( 'name' ); ?></h1>
+                </div>
 
+                <div class="col-8">
+                    <?php 
+
+                        wp_nav_menu( array( 'theme_location' => 'menu-principal', 
+                                            'menu_id' => 'test',
+                                            'menu_class' => "navbar navbar-desktop"
+                                          )); 
+                    ?>
+
+                    <?php // get_search_form(); ?>
+
+                </div>
+
+            </div>
+
+        </div>
 
 	</header>
