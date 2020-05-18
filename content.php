@@ -9,7 +9,8 @@
   </div>
 </div>
 
-
-<?php the_content(  ); ?> 
+<div class="container">
+<?php the_content(  ); ?>
+</div>
 
 <?php comments_template( ); ?>
