@@ -2,9 +2,6 @@
 
 <main>
 
-
-    <h1><?php bloginfo( 'name' ); ?></h1>
-
     <?php get_sidebar( ); ?>
 
     <div class="row">
