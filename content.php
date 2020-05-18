@@ -10,7 +10,7 @@
 </div>
 
 <div class="container">
-<?php the_content(  ); ?>
+    <?php the_content(  ); ?>
+    <hr>
 </div>
-
 <?php comments_template( ); ?>

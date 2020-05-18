@@ -14,12 +14,9 @@ hr{ border-top: 1px solid #F06449; }
 
 .img-example{ padding-left: 10px; padding-right: 10px; width: 100%; height: auto; border-radius: 32px; margin-top: 50px; }
 
-div.menu-premiere-page-container{
-    background-color: #F06449;
-}
 
 .container-navbar-desktop{
-	border-bottom: 2px solid orange;
+	border-bottom: 2px solid #F06449;
 }
 
 .navbar-desktop{
@@ -27,4 +24,8 @@ div.menu-premiere-page-container{
 	padding-top: 15px;
 	text-transform: uppercase;
 	
+}
+
+li{
+    list-style: none;
 }
