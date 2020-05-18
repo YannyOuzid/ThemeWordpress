@@ -60,7 +60,7 @@
                         <p class="card-text"><?php the_tags(); ?></p>
                         <p class="card-text">Date : <?php the_time('d/m/Y'); ?></p>
                         <p class="card-text"> <?php the_excerpt()?></p>
-                        <a href="<?php the_permalink( ); ?>" class="btn btn-primary">Lire</a>
+                        <a href="<?php the_permalink( ); ?>" class="btn btn-primary btn-block">Lire</a>
                     </div>
 
                 </div>

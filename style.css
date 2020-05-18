@@ -45,3 +45,11 @@ textarea{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+a:hover{
+    text-decoration-line: none;
+}
+
+.card{
+    margin-top: 15px ;
+}

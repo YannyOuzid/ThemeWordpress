@@ -19,7 +19,9 @@
             <div class="row">
 
                 <div class="col-4">
-                    <h1><?php bloginfo( 'name' ); ?></h1>
+                    <a href="<?php echo home_url('/');?>">
+                        <h1><?php bloginfo( 'name' ); ?></h1>
+                    </a>
                 </div>
 
                 <div class="col-8">
