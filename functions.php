@@ -13,7 +13,7 @@ function devlab_sidebar() {
 			'id' => 'devlab_sidebar',
 			'name' => __( "Sidebar du devlab" ),
 			'description' => __( 'Contenu de la Sidebar' ),
-			'before_widget' => '<div>',
+			'before_widget' => '<div class="container">',
 			'after_widget' => '</div>',
 			'before_title' => '<h3 class="widget-title">',
 			'after_title' => '</h3>'
