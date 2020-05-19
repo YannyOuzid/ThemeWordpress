@@ -17,6 +17,6 @@
 	<li>Monsieur <b>Virak MEY</b>, <i>Responsable pédagogique & Responsable de l'axe Développement Web</i></li>
 </ul>
 
-<h2>Plus d'informations sur notre thème :</h2>
+<h2>🔎 Plus d'informations sur notre thème</h2>
 
 <p>Version de Wordpress minimum : <b>5.*</b> </p>
