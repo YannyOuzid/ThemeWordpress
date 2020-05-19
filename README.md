@@ -1,4 +1,4 @@
-<h1>Thème Wordpress</h1>
+<h1>🌐 Thème Wordpress</h1>
 
 <p>Projet réalisé dans le cadre du <b>Dev'Lab</b> au <b>Pôle Universitaire Leonard de Vinci</b>. Les étudiants ci-dessous suivent un <b>Bachelor Développement Web</b> en 3 ans : </p>
 <p>🔸 <b>Yanny OUZID</b></p>
