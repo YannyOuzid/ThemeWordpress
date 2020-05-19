@@ -6,7 +6,7 @@
 
             <div class="text-center">
 
-                <h2>Tags</h2>
+                <h2>Archives par  <?php the_tags();?></h2>
 
             </div>
 
