@@ -1,8 +1,24 @@
-    <div class="text-center">
+    <div class="container">
 
-        <h1 class="mt-10"><?php the_title(); ?></h1>
+        <div class="row">
 
-        <img src="<?php echo get_the_post_thumbnail_url(); ?>">
+            <div class="col-2"></div>
+
+            <div class="col-8">
+
+                <div class="text-center">
+
+                    <h1 class="mt-20 mb-20"><?php the_title(); ?></h1>
+
+                    <img class="img-fluid" src="<?php echo get_the_post_thumbnail_url(); ?>">
+
+                </div>
+
+            </div>
+
+            <div class="col-2"></div>
+
+        </div>
 
     </div>
 
