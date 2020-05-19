@@ -1,13 +1,13 @@
-<?php get_header(); ?>
+	<?php get_header(); ?>
 
-<main>
+	<main>
 
-    <?php while(have_posts(  )) : the_post(  ); ?>
-    
-    <?php get_template_part('content'); ?>
+	    <?php while(have_posts(  )) : the_post(  ); ?>
+	    
+	    <?php get_template_part('content'); ?>
 
-    <?php endwhile ?>
+	    <?php endwhile ?>
 
-</main>
+	</main>
 
-<?php get_footer(); ?>
+	<?php get_footer(); ?>

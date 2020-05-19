@@ -1,6 +1,6 @@
-<?php get_header(); ?>
+    <?php get_header(); ?>
 
-<?php get_sidebar(); ?>
+    <?php get_sidebar(); ?>
 
     <div class="container">
 
@@ -18,11 +18,11 @@
 
             <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">        
 
-                <article style="padding-right:20px">
+                <article>
 
-                    <div class="card" style="width: 100%; background-color: transparent; border-color: #F06449" >
-                        <img class="card-img-top" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="Card image cap">
-    
+                    <div class="card card-article">
+
+                        <img class="card-img-top" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="Card image cap">    
 
                         <div class="card-body">
                             <h5 class="card-title"><?php the_title(); ?></h5>
@@ -45,5 +45,4 @@
 
     </div>
 
-
-<?php get_footer(); ?>
+    <?php get_footer(); ?>

@@ -1,30 +1,25 @@
-<?php get_header(); ?>
+    <?php get_header(); ?>
 
-<main>
+    <main>
 
+        <h1><?php bloginfo( 'name' ); ?></h1>
 
-    <h1><?php bloginfo( 'name' ); ?></h1>
+        <?php get_sidebar( ); ?>
 
-    <?php get_sidebar( ); ?>
+        <?php while(have_posts(  )) : the_post(  ); ?>
 
-    <?php while(have_posts(  )) : the_post(  ); ?>
+            <article>
 
+                <a href="<?php the_permalink( ); ?>">
+                    <?php the_post_thumbnail(); ?>
+                    <h2><?php the_title(); ?></h2>
+                </a>
+                <?php the_content(); ?> 
 
+            </article>   
 
-    <article>
+        <?php endwhile ?>
 
-    <a href="<?php the_permalink( ); ?>">
-    <?php the_post_thumbnail(); ?>
-    <h2><?php the_title(); ?></h2>
-    </a>
-    <?php the_content(); ?> 
+    </main>
 
-    </article>
-    
-
-    <?php endwhile ?>
-
-</main>
-
-<?php get_footer(); ?>
-
+    <?php get_footer(); ?>

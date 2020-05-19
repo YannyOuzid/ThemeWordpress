@@ -1,6 +1,6 @@
-<?php get_header(); ?>
+    <?php get_header(); ?>
 
-<?php get_sidebar(); ?>
+    <?php get_sidebar(); ?>
 
     <div class="container">
 
@@ -20,7 +20,7 @@
 
                 <article>
 
-                    <div class="card" style="width:100%; background-color: transparent; border-color: #F06449" >
+                    <div class="card card-article">
 
                         <img class="card-img-top" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="Card image cap">   
 
@@ -30,7 +30,7 @@
                             <p class="card-text"><?php the_tags(); ?></p>
                             <p class="card-text">Date : <?php the_time('d/m/Y'); ?></p>
                             <p class="card-text"><?php the_excerpt(  ); ?> </p>
-                            <a href="<?php the_permalink( ); ?>" class="btn btn-primary btn-block">Lire</a>
+                            <a href="<?php the_permalink( ); ?>" class="btn btn-primary btn-block">Lire l'article</a>
                         </div>
 
                     </div>
@@ -45,4 +45,4 @@
     
     </div>
 
-<?php get_footer(); ?>
+    <?php get_footer(); ?>

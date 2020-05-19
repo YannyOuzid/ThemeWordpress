@@ -1,22 +1,26 @@
 
 	<div class="container">
-			<?php if (have_comments()) : ?>
-				<h4> <?php comments_number( 'Aucun commentaire', 'Un commentaire', '% commentaires'); ?> </h4>
+
+		<?php if (have_comments()) : ?>
+
+			<h4> <?php comments_number( 'Aucun commentaire', 'Un commentaire', '% commentaires'); ?> </h4>
+			
 			</br>
-				
-				<?php wp_list_comments();?>	
+			
+			<?php wp_list_comments();?>	
 
-			<?php endif; ?>
+		<?php endif; ?>
 
-	<?php
-		$comments_args = array(
-			'label_submit' => 'Publier',
-			'title_reply' =>'Publier un commentaire',
-			'comment_notes_after' => '',
-			'class' => 'form-control',
-		);
+		<?php
 
-		comment_form( $comments_args );
-	?>
+			$comments_args = array(
+				'label_submit' => 'Publier',
+				'title_reply' =>'Publier un commentaire',
+				'comment_notes_after' => '',
+				'class' => 'form-control',
+			);
+
+			comment_form( $comments_args );
+		?>
 
 	</div>
