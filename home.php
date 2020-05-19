@@ -12,7 +12,7 @@
                     
                     <div class="justify-content-center">
 
-                        <img src="https://wpengine.com/wp-content/uploads/2018/09/change-theme-resource1.png" alt="Image d'exemple" class="img-example">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-devlab.png" alt="Image d'exemple" class="img-example">
 
                     </div>
 
