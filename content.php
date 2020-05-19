@@ -2,6 +2,8 @@
 
         <h1 class="mt-10"><?php the_title(); ?></h1>
 
+        <img src="<?php echo get_the_post_thumbnail_url(); ?>">
+
     </div>
 
     </br>
@@ -25,6 +27,7 @@
         </div>
 
     </div>
+    
 
     </br>
 
