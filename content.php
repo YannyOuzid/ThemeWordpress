@@ -1,6 +1,6 @@
     <div class="text-center">
 
-        <h1 class="mt-10"><?php the_title(); ?></h1>
+        <h1 class="mt-10 mb-20"><?php the_title(); ?></h1>
 
         <img src="<?php echo get_the_post_thumbnail_url(); ?>">
 
