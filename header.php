@@ -26,7 +26,7 @@
                     </a>
                 </div>
 
-                <div class="col-8">
+                <div class="col-4">
                     <?php 
 
                         wp_nav_menu( array( 'theme_location' => 'menu-principal', 
@@ -38,6 +38,10 @@
                     <?php // get_search_form(); ?>
 
                 </div>
+
+            <div class="col-4">
+                <?php get_search_form(); ?>
+            </div>
 
             </div>
 

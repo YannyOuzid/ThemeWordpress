@@ -6,7 +6,7 @@
 
         <div class="text-center">
 
-            <h2>Archive par date</h2>
+            <h2>Archives par date</h2>
 
         </div>
 

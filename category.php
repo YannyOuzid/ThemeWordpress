@@ -6,7 +6,7 @@
 
         <div class="text-center">
 
-            <h2>Categories</h2>
+            <h2>Archives dans la categorie : <?php the_category()?></h2>
 
         </div>
 

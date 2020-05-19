@@ -6,7 +6,7 @@
 
         <div class="text-center">
 
-            <h2>Archive de <?php the_author() ?></h2>
+            <h2>Archives de <?php the_author() ?></h2>
 
         </div>
 
